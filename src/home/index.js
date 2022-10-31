@@ -1,6 +1,7 @@
 import React from 'react';
-
 import './index.css';
+
+import HocFunc from '../components/HOC';
 
 
 class HomePage extends React.Component {
@@ -14,11 +15,13 @@ class HomePage extends React.Component {
     render(){
         return (
             <div className="App">
-            <header className="App-header">
-                <h1>
-                homepage2
-                </h1>
-            </header>
+                <header className="App-header">
+                    <h1>
+                        <HocFunc text="homepage2"/>
+                    </h1>
+                </header>
+                <HocFunc text="content"/>
+                <HocFunc text="button"/>
             </div>
         );
     }
