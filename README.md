@@ -20,11 +20,17 @@ HOC（High Order Component） 是 react 中对组件逻辑复用部分进行抽�
 
 
 redux
-1.  createStore   创建store
+<!-- 1. 创建store：  import {createStore} from 'redux';  定义 reducer， const store = createStore(reducer); 
 2. reducer    初始化 store,并定义 reducer
 3. getState   获取store 中的state
 4. subscribe  订阅store
-5. dispatch   action   派发action 到 reducer
+5. dispatch   action   派发action 到 reducer -->
+
+1. reducer    初始化 store,并定义 reducer
+2.创建store：  import {createStore} from 'redux';  定义 reducer， const store = createStore(reducer); 
+3. getState   获取store 中的state: store.getState
+4. subscribe  订阅store：  store.subscribe
+5. dispatch   action   派发action 到 reducer： store.dispatch
 
 react-redux
 

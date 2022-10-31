@@ -6,15 +6,17 @@ import Header from '../components/Header';
 
 import Hooks from '../components/Hooks'
 
-import {Couent,
-    PureCouent } from '../components/PureComponent'
+import { Couent,PureCouent } from '../components/PureComponent'
 
+
+import Counter from '../redux/Counter'
 class HomePage extends React.Component {
     constructor(props){
         super(props);
         this.state = {
             count: 0,
         };
+        
     }
 
     componentDidMount(){
@@ -46,6 +48,9 @@ class HomePage extends React.Component {
 
                 <Couent count={count}/>
                 <PureCouent count={count}/>
+
+
+                <Counter />
             </div>
         );
     }
