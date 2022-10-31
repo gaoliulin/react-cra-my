@@ -11,11 +11,11 @@ const GetCount = () => {
     //  相当于  componentDidMount  componentDidUpdate  componentWillUnMount
     useEffect(()=>{
         console.log('count update');
-        const timer = setTimeout(()=>{
-            setCount(count+1)
-        }, 1000)
+        // const timer = setTimeout(()=>{
+        //     setCount(count+1)
+        // }, 1000)
         
-        return ()=> {clearTimeout(timer)}
+        // return ()=> {clearTimeout(timer)}
     }, [count])
 
     return(
