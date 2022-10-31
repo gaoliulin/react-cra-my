@@ -15,6 +15,10 @@ HOC（High Order Component） 是 react 中对组件逻辑复用部分进行抽�
 ## 2. 只在 React 函数中调用 Hook， 或者自定义 hook 中
 
 
+##pureComponent  与 component  
+1. 实现了 showComponentUpdate(nextProps, nextState) return nextState).num !== this.state.num   ，return true 触发渲染。 浅比较，
+
+
 redux
 1.  createStore   创建store
 2. reducer    初始化 store,并定义 reducer
@@ -34,8 +38,6 @@ react-router
 3.route  (exact精确匹配) : 三种渲染方式优先级： children （不匹配location.href）  > component > render
 4.switch  仅匹配一个
 
-pureComponent  与 component  
-1. 实现了 showComponentUpdate(nextProps, nextState) return nextState).num !== this.state.num   ，return true 出发渲染。 线比较，
 
 
 
