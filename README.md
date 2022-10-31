@@ -5,7 +5,14 @@ This project is for me to learn react
 #HOC
 HOC（High Order Component） 是 react 中对组件逻辑复用部分进行抽离的高级技术，但HOC并不是一个 React API 。 它只是一种设计模式，类似于装饰器模式。
 
-
+#hooks
+1. useState
+2. useEffect  
+3. useMome
+4.useCallback       一定程度：   useMome == useCallback
+5. 使用规则： 
+## 1.hooks 只可以拥有组件最外层 ， 不可以包括在 if，for 里面 
+## 2. 只在 React 函数中调用 Hook， 或者自定义 hook 中
 
 
 redux
@@ -30,11 +37,6 @@ react-router
 pureComponent  与 component  
 1. 实现了 showComponentUpdate(nextProps, nextState) return nextState).num !== this.state.num   ，return true 出发渲染。 线比较，
 
-hooks
-1. useState
-2. useEffect  
-3. useMome
-4.useCallback       一定程度：   useMome == useCallback
 
 
 

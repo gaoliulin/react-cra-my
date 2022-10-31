@@ -4,6 +4,8 @@ import './index.css';
 import HocFunc from '../components/HOC';
 import Header from '../components/Header';
 
+import Hooks from '../components/Hooks'
+
 class HomePage extends React.Component {
     constructor(props){
         super(props);
@@ -23,6 +25,8 @@ class HomePage extends React.Component {
                 </header>
                 <HocFunc text="homepage2"/>
                 <HocFunc text="button"/>
+
+                <Hooks/>
             </div>
         );
     }
