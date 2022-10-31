@@ -16,11 +16,9 @@ class HomePage extends React.Component {
         return (
             <div className="App">
                 <header className="App-header">
-                    <h1>
-                        <HocFunc text="homepage2"/>
-                    </h1>
+                    <HocFunc text="header"/>
                 </header>
-                <HocFunc text="content"/>
+                <HocFunc text="homepage2"/>
                 <HocFunc text="button"/>
             </div>
         );

@@ -8,7 +8,9 @@ class Content extends Component {
 
         return(
             <div>
-                {text ||  'header'}
+                <h1>
+                    {text ||  'header'}
+                </h1>
             </div>
         )
     }
