@@ -7,6 +7,8 @@ import Header from '../components/Header';
 import Hooks from '../components/Hooks'
 
 import { Couent,PureCouent } from '../components/PureComponent'
+import RouterPage from '../router/index';
+
 
 
 import Counter from '../redux/Counter'
@@ -51,6 +53,9 @@ class HomePage extends React.Component {
 
 
                 <Counter />
+
+
+                <RouterPage />
             </div>
         );
     }
